@@ -5,6 +5,7 @@
 
 body{
     margin: 0;
+    background-color: rgb(254, 239, 216);
 }
 
 header{
@@ -33,7 +34,6 @@ header nav{
     width: 300px;
 }
 
-
 /* Conteúdo */
 main{
     margin-top: 10px;
@@ -44,9 +44,9 @@ main{
     background-color: rgb(255, 136, 89);
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px;
-    width: 500px;
+    width: 380px;
     margin-left: 300px;
 }
 
@@ -63,7 +63,6 @@ main{
     max-width: 800px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .carousel-inner {
@@ -99,6 +98,21 @@ main{
 
 .next {
     right: 10px;
+}
+
+/* Pé */
+.pezinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.pe p{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Botão para contato */
