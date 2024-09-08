@@ -1,5 +1,5 @@
 let currentIndex = 0;
-const intervalTime = 3000; // Tempo entre mudanças de slide em milissegundos
+const intervalTime = 4500; // Tempo entre mudanças de slide em milissegundos
 
 function showSlide(index) {
   const slides = document.querySelectorAll(".carousel-item");
