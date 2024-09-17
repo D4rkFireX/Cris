@@ -22,22 +22,23 @@ header div{
 header nav{
     color: rgb(227, 81, 7);
     font-family: Cris;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 20px;
 }
 
 .logo img{
-    width: 200px;
+    width: 150px;
 }
 
 .cris img{
-    width: 300px;
+    width: 200px;
 }
 
 /* Conteúdo */
 main{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
+    justify-content: center;
 }
 
 .texto{
@@ -46,21 +47,21 @@ main{
     font-weight: bold;
     font-size: 23px;
     padding: 10px;
-    width: 380px;
-    margin-left: 300px;
+    width: 360px;
+    border-radius: 10px;
 }
 
 .divpaicarousel{
     margin-left: 100px;
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: 350px;
 }
 
 .carousel {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -105,7 +106,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .pe p{
