@@ -105,15 +105,7 @@ main{
 .pezinho{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.pe p{
-    font-size: 25px;
-    font-weight: bold;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
 }
 
 /* Botão para contato */
@@ -137,3 +129,8 @@ button {
   button:hover {
     cursor: default;
   }
+
+  /* font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; */
